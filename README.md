@@ -1,3 +1,17 @@
+# Hey all thank you for been seeing this post. :)
+
+This is a gifting demo site that been design with material design UI and girding system
+
+Here you can able to find the implementation of React 18, Redux , Router 6 authentication, React and Enzyme Texting, PWA, JSON webserver etc.
+
+You can login as Google authentication (User access) or Admin Authentication (`admin@gmail.com` => 'Admin@123')
+
+# Few Commands Need to remember
+
+=> `yarn/npm start`
+=> `yarn/npm build`
+=> `yarn/npm serve`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
