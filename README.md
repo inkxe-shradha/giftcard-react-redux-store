@@ -10,7 +10,7 @@ You can login as Google authentication (User access) or Admin Authentication (`a
 
 => `yarn/npm start`
 => `yarn/npm build`
-=> `yarn/npm serve`
+=> `yarn/npm server`
 
 # Getting Started with Create React App
 
