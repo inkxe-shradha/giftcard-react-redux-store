@@ -1,0 +1,69 @@
+.circular-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.paper {
+  margin-block: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+:-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 145, 145, 0.57);
+  outline: 1px solid slategrey;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 1.5em !important;
+  opacity: .5;
+  background: transparent;
+
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, #9e9e9b, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    background-color: #fcfcfa;
+  }
+}
+
+.ReactVirtualized__Table__headerRow {
+  border-bottom: 5px solid #fcfcfa;
+}
+
+.float-right {
+  float: right;
+}

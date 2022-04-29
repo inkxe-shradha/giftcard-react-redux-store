@@ -1,0 +1,42 @@
+.profileHeader {
+    min-height: 25%;
+    width: 100%;
+    background-image: url('../images/ProfileImage.png');
+    object-fit: cover;
+}
+
+.profileContent {
+    margin-bottom: 3%;
+}
+
+.profileImg {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.profileValues {
+    margin: 4%;
+    margin-right: 0;
+    border: 0.5px solid #ccc;
+    padding: 5px 10px;
+    overflow-x: auto;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+
+.label {
+    display: block;
+    margin: 8%;     
+    border: 0.5px solid #ccc;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-family: cursive;
+}

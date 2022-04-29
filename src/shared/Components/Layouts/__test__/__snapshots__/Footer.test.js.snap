@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer test suite Should create a snapshot of the footer  page 1`] = `
+<DocumentFragment>
+  <footer
+    class="mt-3"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter css-1vl95ex-MuiTypography-root"
+    >
+      Made with ❤️ by Shrdha. Copyright © 
+      <a
+        color="inherit"
+        href="/"
+      >
+        Your Website
+      </a>
+       2022.
+    </p>
+  </footer>
+</DocumentFragment>
+`;

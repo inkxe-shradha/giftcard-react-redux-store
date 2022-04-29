@@ -1,0 +1,104 @@
+.offerMessage {
+    height: 40px;
+    background: #b3d9f7;
+    color: white;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 2%;
+}
+
+@media only screen and (min-width: 328px) and (max-width: 600px) {
+    .offerMessage {
+        font-size: 15px !important;
+        padding-top: 10px;
+        vertical-align: middle !important;
+    }
+    .languageButton {
+        float: right;
+        margin-bottom: 5px !important;
+        padding-top: 15px !important;
+        font-size: 12px !important
+    }
+}
+
+.button {
+    color: white !important;
+    margin-left: 20px !important;
+}
+
+.mainSlide {
+    padding: 2% 2%;
+    background: #32567e;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.sectionTitle {
+    color: #fff;
+    font-weight: 300 !important;
+    font-size: 3em !important;
+}
+
+.vendorTitle {
+    color: #000;
+    font-weight: 300 !important;
+    font-size: 2em !important;
+    text-align: center;
+}
+
+.sectionText {
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0 0 50px;
+    color: #fff;
+}
+
+.GiftImg {
+    max-width: 90%;
+    height: auto;
+    position: relative;
+    z-index: 97;
+    margin: 0 auto -120px;
+    display: block;
+}
+
+.vendors {
+    padding: 25px 0;
+    margin: 1% 1%;
+}
+
+.vendorContainer {
+    border: 1px solid #ccc;
+    padding: 1%;
+    display: inline-block;
+    margin: 1%;
+}
+.vendorImage {
+    margin: 0;
+    background: #fff;
+    width: 190px;
+    height: 190px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border-color .15s ease-out;
+}
+
+.cardsBtn {
+    text-decoration: none;
+}
+
+.vendorName {
+    text-align: center;
+}
+
+.languageButton {
+    height: 30px !important;
+    color: #fff;
+    padding: 2px 10px!important;
+    margin-right: 5px !important;
+}

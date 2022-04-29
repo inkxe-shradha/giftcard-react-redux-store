@@ -1,0 +1,21 @@
+.headerButton {
+    font-size: 15px !important;
+}
+
+@media only screen and (min-width: 328px) and (max-width: 768px) {
+    .headerButton {
+        font-size: 10px !important;
+    }
+}
+
+.accountMenu {
+    margin-left: 90%;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 328px) and (max-width: 768px) {
+    .accountMenu {
+        margin-left: 72%;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoTable test suite case should render correctly 1`] = `
+<DocumentFragment>
+  <table
+    class="table table-dark table-striped"
+  >
+    <thead>
+      <tr>
+        <th>
+          Card Name
+        </th>
+        <th>
+          Points
+        </th>
+        <th>
+          Card Desc
+        </th>
+        <th>
+          Received From
+        </th>
+        <th>
+          Issued Date
+        </th>
+        <th>
+          Expiry Date
+        </th>
+        <th>
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          class="text-center"
+          colspan="7"
+        >
+          No Gift Card Received
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

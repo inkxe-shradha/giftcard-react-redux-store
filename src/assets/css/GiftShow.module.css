@@ -1,0 +1,96 @@
+.cardContainer {
+   border-right: 1px solid #ccc;
+   overflow-y: auto;
+}
+
+.detailsPage {
+    border: 1px solid grey;
+    height: 100%;
+    border-radius: 2%;
+    padding: 1%
+}
+
+.detailsContainer {
+    margin: 2%;
+    height: 100vh;
+    padding: 2%;
+    color: black;
+    overflow-y: auto;
+}
+
+.vendorImage {
+    height: 200px;
+    width: 200px;
+    margin: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 2%;
+}
+
+.sendGiftBtn {
+    margin-left: 3% !important;
+}
+
+.vendorName {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2% !important;
+    text-transform: capitalize;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.cardDescription {
+    overflow-y: auto;
+    font-size: 1.1em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 3%;
+}
+
+.cardName {
+    margin-top: 20%;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.cardPoints {
+    margin-left: 10%
+}
+
+.label {
+    font-size: 1em;
+    font-weight: 500;
+    color: #32567e;
+    margin-right: 2%;
+}
+
+.commentsSection {
+    margin: 1%;
+    padding: 2%;
+    border-top: 1px solid #ccc;
+    font-size: 1.1em;
+}
+
+.commentCategories {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.comment {
+    font-size: 14px;
+}
+.commentorName {
+    font-weight: bolder;
+    font-size: 14px;
+}
+.commentDate {
+    margin-left: 2%;
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}

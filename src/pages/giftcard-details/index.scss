@@ -1,0 +1,21 @@
+.comment-section {
+    margin: 1%;
+    padding: 2%;
+    border-top: 1px solid #ccc;
+    font-size: 1.1em;
+
+    .comment-name {
+        font-size: 14px;
+    }
+
+    .comment-date {
+        margin-left: 2%;
+        font-size: 12px;
+        font-weight: 400;
+        color: grey;
+    }
+
+    .comment {
+        font-size: 13px;
+    }
+}

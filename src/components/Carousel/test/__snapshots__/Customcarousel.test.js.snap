@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel testing suite cases Should able to capture the snapshot of the Carousel 1`] = `
+<DocumentFragment>
+  <div
+    class="container-fluid"
+  >
+    <div
+      class="carousel-root"
+    >
+      <div
+        class="carousel carousel-slider"
+        style="width: 100%;"
+      >
+        <ul
+          class="control-dots"
+        >
+          <li
+            aria-label="slide item 1"
+            class="dot selected"
+            role="button"
+            tabindex="0"
+            value="0"
+          />
+          <li
+            aria-label="slide item 2"
+            class="dot"
+            role="button"
+            tabindex="0"
+            value="1"
+          />
+          <li
+            aria-label="slide item 3"
+            class="dot"
+            role="button"
+            tabindex="0"
+            value="2"
+          />
+        </ul>
+        <button
+          aria-label="previous slide / item"
+          class="control-arrow control-prev control-disabled"
+          type="button"
+        />
+        <div
+          class="slider-wrapper axis-horizontal"
+        >
+          <ul
+            class="slider animated"
+            style="transform: translate3d(0,0,0); transition-duration: 350ms;"
+          >
+            <li
+              class="slide selected previous"
+            >
+              <div>
+                <img
+                  alt="amazon"
+                  class="carousel-img"
+                  src="https://source.unsplash.com/featured/900x450?amazon"
+                />
+                <button
+                  class="legend"
+                >
+                   Grab it
+                </button>
+              </div>
+            </li>
+            <li
+              class="slide"
+            >
+              <div>
+                <img
+                  alt="flipkart"
+                  class="carousel-img"
+                  src="https://source.unsplash.com/featured/900x450?coupon"
+                />
+                <button
+                  class="legend"
+                >
+                   Grab it
+                </button>
+              </div>
+            </li>
+            <li
+              class="slide"
+            >
+              <div>
+                <img
+                  alt="google"
+                  class="carousel-img"
+                  src="https://source.unsplash.com/featured/900x450?google"
+                />
+                <button
+                  class="legend"
+                >
+                   Grab it
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button
+          aria-label="next slide / item"
+          class="control-arrow control-next"
+          type="button"
+        />
+        <p
+          class="carousel-status"
+        >
+          1 of 3
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

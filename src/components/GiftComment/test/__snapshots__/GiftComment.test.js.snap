@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift card comment test suite Should render the comment component snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="comment-section"
+  >
+    <p
+      class="comment-name"
+    >
+       
+      <strong>
+        John Doe
+      </strong>
+      <span
+        class="comment-date"
+      >
+         
+        <i>
+          May 05, 2020
+        </i>
+      </span>
+    </p>
+    <p
+      class="comment"
+    >
+      This is a comment
+    </p>
+    <div
+      class="dv-star-rating dv-star-rating-non-editable"
+      style="display: inline-block; position: relative;"
+    >
+      <input
+        class="dv-star-rating-input"
+        id="rating_5"
+        name="rating"
+        style="display: none; position: absolute; margin-left: -9999px;"
+        type="radio"
+        value="5"
+      />
+      <label
+        class="dv-star-rating-star dv-star-rating-empty-star"
+        for="rating_5"
+        style="float: right; cursor: default; color: rgba(255, 255, 255, 1);"
+      >
+        <i
+          style="font-style: normal;"
+        >
+          ★
+        </i>
+      </label>
+      <input
+        checked=""
+        class="dv-star-rating-input"
+        id="rating_4"
+        name="rating"
+        style="display: none; position: absolute; margin-left: -9999px;"
+        type="radio"
+        value="4"
+      />
+      <label
+        class="dv-star-rating-star dv-star-rating-full-star"
+        for="rating_4"
+        style="float: right; cursor: default; color: rgb(255, 180, 0);"
+      >
+        <i
+          style="font-style: normal;"
+        >
+          ★
+        </i>
+      </label>
+      <input
+        class="dv-star-rating-input"
+        id="rating_3"
+        name="rating"
+        style="display: none; position: absolute; margin-left: -9999px;"
+        type="radio"
+        value="3"
+      />
+      <label
+        class="dv-star-rating-star dv-star-rating-full-star"
+        for="rating_3"
+        style="float: right; cursor: default; color: rgb(255, 180, 0);"
+      >
+        <i
+          style="font-style: normal;"
+        >
+          ★
+        </i>
+      </label>
+      <input
+        class="dv-star-rating-input"
+        id="rating_2"
+        name="rating"
+        style="display: none; position: absolute; margin-left: -9999px;"
+        type="radio"
+        value="2"
+      />
+      <label
+        class="dv-star-rating-star dv-star-rating-full-star"
+        for="rating_2"
+        style="float: right; cursor: default; color: rgb(255, 180, 0);"
+      >
+        <i
+          style="font-style: normal;"
+        >
+          ★
+        </i>
+      </label>
+      <input
+        class="dv-star-rating-input"
+        id="rating_1"
+        name="rating"
+        style="display: none; position: absolute; margin-left: -9999px;"
+        type="radio"
+        value="1"
+      />
+      <label
+        class="dv-star-rating-star dv-star-rating-full-star"
+        for="rating_1"
+        style="float: right; cursor: default; color: rgb(255, 180, 0);"
+      >
+        <i
+          style="font-style: normal;"
+        >
+          ★
+        </i>
+      </label>
+    </div>
+  </div>
+</DocumentFragment>
+`;
