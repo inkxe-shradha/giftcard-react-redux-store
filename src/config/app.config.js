@@ -1,5 +1,4 @@
-export const clientId =
-  "25860778518-lt39cmgjc3s1na7pfc564gdn2bilqljq.apps.googleusercontent.com";
+export const clientId = ""
 
 export const adminAccess = {
   email: "admin@google.com",
